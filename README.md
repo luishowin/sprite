@@ -162,6 +162,17 @@ completed tool action or a game win.
 All timings live in the `TIMINGS` object inside `SpriteEmotion`, or can be
 overridden with `window.SPRITE_CONFIG.idle`.
 
+### Voice output
+
+The visible TTS button was removed in November 2026. The browser speech
+synthesis path (`speak()` and `toggleTTS()`) remains in the file, but
+`ttsEnabled` stays off and `toggleTTS()` no-ops while the button is absent.
+Re-add the header button when a good free voice model is chosen.
+
+The chat scroll area also fades into a soft blur at its top and bottom edges.
+The blur only appears when content is actually hidden beyond that edge, and a
+gradient fallback is used where `backdrop-filter` is unavailable.
+
 ## Conversational integration
 
 The offline fallback maps dialogue intent to expressions. The live Worker asks
