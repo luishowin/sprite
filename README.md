@@ -13,6 +13,8 @@ widget and Cloudflare proxy. It is the source of truth; the copy at
 
 ## Demo
 
+Live: https://luishowin.github.io/sprite/
+
 Open `index.html` directly or run a local server:
 
 ```bash
