@@ -58,7 +58,7 @@ const SpriteEmotion = (() => {
     doubleBlinkChance: 0.22,
     doubleBlinkGapMin: 140,
     doubleBlinkGapMax: 260,
-    blinkDuration: 110,
+    blinkDuration: 140,
 
     lookAroundAfterMin: 5000,
     lookAroundAfterMax: 10000,

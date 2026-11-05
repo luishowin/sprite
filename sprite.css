@@ -147,6 +147,10 @@
   --blink-h: 0.08;
 }
 
+.sprite-character.is-blinking .sprite-eye {
+  transition-duration: 90ms;
+}
+
 .sprite-character.is-talking .sprite-mouth-talk {
   animation: spriteTalk 300ms ease-in-out infinite alternate;
 }
